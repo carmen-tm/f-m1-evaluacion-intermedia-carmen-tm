@@ -54,3 +54,8 @@ h2{
     display: flex;
     flex-flow: column nowrap;
 }
+
+.menu-items{
+    display: inline;
+    margin: auto 10px;
+}

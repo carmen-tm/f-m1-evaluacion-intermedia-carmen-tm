@@ -71,5 +71,9 @@ h2{
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
+
+        /* margin-right: 30px; */
+        margin: 20px 30px;
     }
+
 }

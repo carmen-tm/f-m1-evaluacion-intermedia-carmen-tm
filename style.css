@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
 
-    border: 0.1px solid blueviolet;
+    /* border: 0.1px solid blueviolet; */
 }
 
 body{
@@ -18,9 +18,16 @@ h2{
     font-size:30px;
 }
 
-/* Adding style to the menu elements */
 .header-container{
     color: #4a4a4a; 
+}
+
+.general-container{
+    /* background-color:pink; */
+    min-height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .main-container{
@@ -28,6 +35,7 @@ h2{
     background-color: #3CDBC0;
     color: #FFFFFF;
     padding: 50px 50px;
+    flex-grow: 1;
 }
 
 .logo-container{
@@ -40,7 +48,7 @@ h2{
 }
 
 .general-container{
-    background-color:pink;
+    /* background-color:yellow; */
     min-height: 100vh;
 
     display: flex;

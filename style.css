@@ -59,3 +59,17 @@ h2{
     display: inline;
     margin: auto 10px;
 }
+
+/* Adding responsive behaviour */
+@media all and (min-width:768px){
+    /* *{
+        color: orange;
+    } */
+
+    .header-container{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

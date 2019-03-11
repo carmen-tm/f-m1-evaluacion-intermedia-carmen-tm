@@ -34,7 +34,7 @@ h2{
     font-size: 30px;
     background-color: #3CDBC0;
     color: #FFFFFF;
-    padding: 50px 50px;
+    padding: 30% 50px;
     flex-grow: 1;
 }
 
@@ -74,6 +74,10 @@ h2{
 
         /* margin-right: 30px; */
         margin: 20px 30px;
+    }
+
+    .main-container{
+      padding: 40% 50px;
     }
 
 }

@@ -1,12 +1,9 @@
 
 /* General common rules */
 * {
-    /* background-color: pink; */
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
-    /* border: 0.1px solid blueviolet; */
 }
 
 body{
@@ -18,24 +15,21 @@ h1{
     font-size:30px;
 }
 
-.header-container{
-    color: #4a4a4a; 
-}
+/* GENERAL */
 
 .general-container{
-    /* background-color:pink; */
     min-height: 100vh;
 
     display: flex;
     flex-flow: column nowrap;
 }
 
-.main-container{
-    font-size: 30px;
-    background-color: #3CDBC0;
-    color: #FFFFFF;
-    padding: 30% 50px;
-    flex-grow: 1;
+
+
+/* HEADER */
+
+.header-container{
+    color: #4a4a4a; 
 }
 
 .logo-container{
@@ -47,24 +41,28 @@ h1{
     text-transform: uppercase;
 }
 
-.general-container{
-    /* background-color:yellow; */
-    min-height: 100vh;
-
-    display: flex;
-    flex-flow: column nowrap;
-}
-
 .menu-items{
     display: inline;
+    text-decoration: none;
     margin: auto 10px;
+    color: inherit;
 }
+
+
+/* MAIN */
+
+.main-container{
+    font-size: 30px;
+    background-color: #3CDBC0;
+    color: #FFFFFF;
+    padding: 30% 50px;
+    flex-grow: 1;
+}
+
+
 
 /* Adding responsive behaviour */
 @media all and (min-width:768px){
-    /* *{
-        color: orange;
-    } */
 
     .header-container{
         display: flex;
@@ -72,7 +70,6 @@ h1{
         justify-content: space-between;
         align-items: center;
 
-        /* margin-right: 30px; */
         margin: 20px 30px;
     }
 

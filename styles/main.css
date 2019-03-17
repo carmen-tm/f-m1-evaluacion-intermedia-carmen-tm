@@ -8,6 +8,8 @@
 body{
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    font-size: 16px;
+    color: #4a4a4a; 
 }
 
 /* GENERAL */
@@ -21,10 +23,6 @@ body{
 
 /* HEADER */
 
-.header-container{
-    color: #4a4a4a; 
-}
-
 .logo-container{
     padding: 10px 0;
 }
@@ -32,13 +30,23 @@ body{
 .header-menu-container{
     padding-bottom: 13px;
     text-transform: uppercase;
+
+
+}
+
+.header-menu {
+    list-style: none;
+    display:flex;
+    justify-content: center;
 }
 
 .menu-items{
-    display: inline;
+    /* border: 1px solid red; */
     text-decoration: none;
     margin: auto 10px;
     color: inherit;
+
+
 }
 
 /* MAIN */
